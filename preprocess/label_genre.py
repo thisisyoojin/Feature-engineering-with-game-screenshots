@@ -73,21 +73,29 @@ def label_genre(tags, labels_cnt):
     
 def create_label_csv(root_dir):
     """
-    Create csv file for label(genres)
+    Create csv file for label(genres) in the root_dir with name "multilabel.csv".
+    It returns the number by tags
 
     params
     ======
     root_dir(str): the folder to store data(images and csv file)
+
+    return
+    ======
+    labels_cnt(dict): dictionary the number of tags(values) by genre(key)
     """
     
     FILE_PATH = f'{root_dir}/multilabel.csv'
 
+    # if the file exists, it deletes the file
     if os.path.isfile(FILE_PATH):
         os.remove(FILE_PATH)
+    
+    # add the header in the file
     with open(f'{root_dir}/multilabel.csv', 'a') as f:
         f.write("appid,label,filepaths\n")
     
-    
+    # creates a screenshot file
     screenshot = {}
     for f in os.listdir(root_dir):
         app_id = f.split('_')[0]
