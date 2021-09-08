@@ -5,7 +5,7 @@ from PIL import Image
 import pandas as pd
 
 
-class Screenshots2D(Dataset):
+class Screenshots(Dataset):
     """
     Dataset with game screenshots, which will be passed to Dataloader for iterating data for training an evluation.
 
