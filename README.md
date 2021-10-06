@@ -17,6 +17,14 @@ As the part of the project of Game Score Prediction()
 ## Design
 ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
+## Output
+genre_best_model.pkl
+theme_best_model.pkl
+mood_best_model.pkl
+graphic_best_model.pkl
+contents_best_model.pkl
+mechanism_best_model.pkl
+players_best_model.pkl
 
 ## Usage
 
