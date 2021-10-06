@@ -1,9 +1,22 @@
-# Steam Game Metacritic Score Prediction
+# Predict Steam Score
 
 Steam Game Score Prediction is a collection of data-pipeline, feature-extraction, and prediction with ML/DL models. 
 
 ## Business value
 The gaming market is huge
+- There are more than 2.7 billion gamers worldwide.
+- The global gaming industry will grow at a CAGR of 12% between 2020-2025.
+- The PC gaming market could hit $45.5 billion in 2021.
+
+...but very competitive
+- In January 2019, there were 30,000 games on Steam
+- Every day 25 new games are released on Steam
+
+Game developers wants to develop a game in a good quality.
+Publishers have many possible games to publish, they want to know which one will be popular.
+
+To solve this issue,
+we can reate a model to predict metacritic score based on the features of a game!
 
 ## Workflow
 - Data collection with Web Crawling and API
