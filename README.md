@@ -1,18 +1,18 @@
-# Which game gets high score
+# Game Feature Extraction with NN
 
-Which game gets high score project is a collection of data-pipeline, feature-extraction, and prediction with ML/DL models projects. It starts with steam games
+Game Feature Extraction is predicting game features with deep learning model(CNN, RNN) from raw unconstructed data such as text and images.
 
 ## Inspiration
 As the part of the project of Game Score Prediction()
 
-To solve this issue,
-we can reate a model to predict metacritic score based on the features of a game!
+
 
 ## Project workflow
-- Data collection with Web Crawling and API
-- Data cleaning & store in AWS
-- Prediction with ensenble tree-models/Deep neural networks
-- Get best model by comparing multiple models
+- CNN: Images
+
+- RNN
+ 
+- Genre
 
 ## Design
 ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
@@ -59,10 +59,3 @@ This game's features are:
 2D, Sci-fi, Pixel, Story-rich, Fight, Single player
 ```
 
-2) Predict metacritic score
-If you want to predict predict metacritic score.
-
-```bash
-python main.py score -d demo_data.yaml
-```
-demo_data then you can see the score.
