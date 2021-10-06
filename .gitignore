@@ -1,3 +1,4 @@
-/data
-!/data/source
+!data/
+data/*
+!data/source/
 *cache*
