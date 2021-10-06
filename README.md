@@ -1,6 +1,6 @@
-# Predict Steam Score
+# Which game gets high score
 
-Steam Game Score Prediction is a collection of data-pipeline, feature-extraction, and prediction with ML/DL models. 
+Which game gets high score project is a collection of data-pipeline, feature-extraction, and prediction with ML/DL models projects. It starts with steam games
 
 ## Business value
 The gaming market is huge
@@ -18,12 +18,12 @@ Publishers have many possible games to publish, they want to know which one will
 To solve this issue,
 we can reate a model to predict metacritic score based on the features of a game!
 
-## Workflow
+## Project workflow
 - Data collection with Web Crawling and API
 - Data cleaning & store in AWS
 - Feature extraction with Neural network
-- Prediction with ensenble tree-models
-- Prediction with Neural network
+- Prediction with ensenble tree-models/Deep neural networks
+- Get best model by comparing multiple models
 
 ## Design
 ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
