@@ -3,16 +3,18 @@
 Game Feature Extraction is predicting game features with deep learning model(CNN, RNN) from raw unconstructed data such as text and images.
 
 ## Inspiration
-As the part of the project of Game Score Prediction()
 
+As the part of the project of Game Score Prediction, I used tags of steam games for features in the game. Players tag games in the Steam Store with terms that they think are appropriate, or apply tags that others have already suggested for that title. But as it is tagged by users, sometimes incorrect or inappropriate tags are displayed in a game or multiple tags with similar attribute are displayed, which doesn't give useful information.
+
+To solve this issue, I design this project to extract these tags(features) from game descriptions and screenshots. With this process, I can extract necessary features from a game and use it to predict the game's metacritic score in future.
 
 
 ## Project workflow
-- CNN: Images
+- Images</br>
+With a game's screenshots, models will predict multi-label in themes and graphic features. The models will be a different variaty of multi-label Convolutional Neural Networks.
 
-- RNN
- 
-- Genre
+- Text</br>
+With a game's description, models will predict multi-label in contents, mechanism, and player features. The models will be a different variaty of multi-label Convolutional Neural Networks or Recurrent Neural Networks.
 
 ## Design
 ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
@@ -51,8 +53,8 @@ This game's features are:
 
 Available features</br>
 - genre: Action, Adventure, Casual, Puzzle, RPG, Simulation, Strategy, Racing, Arcade, Sports
+- mood: Violent, Funny, Horror, Sexual, Relaxing, Dark, Mystery, Atmospheric, Cute
 - theme: Sci-fi-Mechs, Post-apocalyptic, Retro, Zombies, Military, Fantasy, Historical
-- mood: Violent, Funny, Horror, Sexual,
 - graphic: 2D, 3D, Cartoon, Pixel, Realistic, Top-Down, Isometric, First-person, Third-person, Resolution
 - contents: Story-rich, Open world, Choices Matter, Multiple Endings
 - mechanism: Fight, Shoot, Combat, Platformer, Hack-and-Slash, Survive, Build-and-Create,
